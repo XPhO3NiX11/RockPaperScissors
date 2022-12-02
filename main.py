@@ -2,7 +2,7 @@ import random
 import os
 from time import sleep
 
-L=('rock','paper','scissors\n')
+L=('rock','paper','scissors')
 Win=Loss=Tie=0
 options = {1:'rock',2:'paper',3:'scissors',4:'exit'}
 winCondition = {'rock':'scissors','paper':'rock','scissors':'paper'}
